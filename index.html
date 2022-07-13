@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>Welcome To Wephco</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'chinese-black': '#141414',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header class="flex flex-col lg:flex-row items-center lg:justify-between shadow-[0_0px_4px_4px_rgba(0,0,0,0.02)] w-full h-fit lg:h-20 px-4 lg:px-20 py-6 lg:py-0">
+    <a href="index.html">
+      <img src="images/logo.svg" alt="Wephco Logo" />
+    </a>
+    <nav class="flex flex-col lg:flex-row space-y-4 lg:space-x-20 lg:space-y-0 mt-8 lg:mt-0">
+      <a href="index.html" class="font-medium text-center text-sm leading-[1.156rem] hover:underline">
+        <span>Exclusive Offers</span>
+      </a>
+      <a href="index.html" class="font-medium text-center text-sm leading-[1.156rem] hover:underline">
+        <span>Testimonial</span>
+      </a>
+      <a href="index.html" class="font-medium text-center text-sm leading-[1.156rem] hover:underline">
+        <span>Consult Us</span>
+      </a>
+    </nav>
+    <div class="flex space-x-5 mt-8 lg:mt-0">
+      <button class="hover:bg-chinese-black border border-chinese-black font-medium leading-[1.156rem] text-chinese-black hover:text-white rounded px-4 py-2.5">
+        <span>Log in</span>
+      </button>
+      <button class="bg-chinese-black font-medium leading-[1.156rem] text-white rounded px-4 py-2.5">
+        <span>Get started</span>
+      </button>
+    </div>
+  </header>
+  <main class="flex flex-col items-center pb-[12.813rem]">
+    <section class="flex flex-col xl:flex-row items-center xl:justify-between xl:pl-20">
+      <article class="flex flex-col items-center xl:items-start px-8 xl:px-0 py-4 xl:py-0">
+        <h1 class="font-bold text-center text-chinese-black xl:text-start text-[3.5rem] leading-[4.428rem] w-fit">
+          <span>Buy, Rent or Sell <br class="hidden md:inline" /> properties in Abuja</span>
+        </h1>
+        <p class="font-light text-center xl:text-start text-[1.75rem] leading-[2.469rem] w-fit mt-[1.125rem]">
+          <span>Let us take the hassle of house hunting <br class="hidden md:inline" /> off your shoulder for a small fee</span>
+        </p>
+        <button class="bg-chinese-black font-medium leading-[2.25rem] text-[#EEF9FF] text-2xl rounded w-fit px-8 py-4 mt-[2.375rem]">
+          <span>Find a property</span>
+        </button>
+      </article>
+      <img src="images/properties.png" class="w-full xl:w-fit" alt="Properties" />
+    </section>
+    <section class="flex flex-col pt-16">
+      <h4 class="text-benton text-center leading-[3rem] text-[#666666] text-2xl">
+        <span>Trusted By Reputable Nigerian Companies</span>
+      </h4>
+      <img src="images/sponsors.svg" alt="Sponsors" />
+    </section>
+    <section class="flex flex-col px-8 lg:px-20 pt-[5.938rem]">
+      <h2 class="font-bold text-center leading-[3.448rem] text-5xl">
+        <span>Why you should chose Wephco</span>
+      </h2>
+      <img src="images/merits.svg" class="mt-[2.25rem]" alt="Merits" />
+    </section>
+    <section class="flex flex-col px-8 lg:px-[6.875rem] pt-[14.25rem]">
+      <h2 class="font-bold text-center leading-[3.837rem] text-chinese-black text-[3.816rem]">
+        <span>Get a property in 3 simple steps</span>
+      </h2>
+      <img src="images/steps.svg" class="mt-[2.25rem]" alt="Steps" />
+    </section>
+    <section class="flex flex-col w-full px-8 xl:px-20 pt-[11rem]">
+      <h2 class="font-bold text-center leading-[3.448rem] text-5xl">
+        <span>What our clients say</span>
+      </h2>
+      <article class="flex flex-col xl:flex-row items-center xl:justify-center xl:space-x-4 space-y-4 xl:space-y-0 mt-[3.5rem]">
+        <img src="images/review-one.svg" class="md:w-[80vw] xl:w-auto" alt="First Testimony" />
+        <img src="images/review-two.svg" class="md:w-[80vw] xl:w-auto" alt="Second Testimony" />
+        <img src="images/review-three.svg" class="md:w-[80vw] xl:w-auto" alt="Third Testimony" />
+      </article>
+    </section>
+  </main>
+  <footer class="flex flex-col md:flex-row items-center md:justify-between space-y-4 md:space-y-0 bg-[#FBFBFB] w-full px-8 md:px-20 py-[5.5rem]">
+    <article class="flex flex-col items-center md:items-start">
+      <img src="images/logo.svg" alt="Wephco Logo" />
+      <p class="font-medium leading-[2.25rem] text-xl">
+        <span>&copy;Wephco, 2022</span>
+      </p>
+    </article>
+    <p class="flex flex-col md:flex-row items-center md:space-x-[1.625rem] font-medium leading-[1.875rem] text-xl">
+      <span>contact@wephco.com</span>
+      <span>+234 (814) 7511 481</span>
+    </p>
+  </footer>
+</body>
+
+</html>
