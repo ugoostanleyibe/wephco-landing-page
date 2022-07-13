@@ -1,0 +1,14 @@
+@import url('http://fonts.cdnfonts.com/css/bentonsans-regular');
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+body {
+    font-family: 'Circular Std', sans-serif;
+}
+
+.text-benton {
+    font-family: 'BentonSans Regular', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
